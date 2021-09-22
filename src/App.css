@@ -12,6 +12,20 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+header {
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+h1 {
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+.submit-button {
+  background-color: #61dafb;
+  color: white;
+}
 
 .App-header {
   background-color: #282c34;
@@ -26,6 +40,10 @@
 
 .App-link {
   color: #61dafb;
+}
+footer {
+  background-color: #f6f6f6;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
