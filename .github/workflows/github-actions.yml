@@ -18,7 +18,7 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v1
       - name: move directory
-        run: cd my-app/testcafe
+        run: cd /home/runner/work/HomePage/HomePage/my-app/testcafe
       - name: Run tests
         uses: DevExpress/testcafe-action@latest
         with:
