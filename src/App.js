@@ -23,7 +23,7 @@ const App = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/inquiry">About</Link>
+              <Link to="/inquiry">Inquiry</Link>
             </li>
             <li>
               <Link to="/information">Users</Link>

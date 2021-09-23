@@ -10,20 +10,20 @@ const Error = styled.span`
 
 const InnerForm = ({ props, errors, touched }) => (
   <Form>
-    <Field name="name" />
+    <Field name="name" id="name" />
     <Error>
       {touched.name && errors.name && (
         <div className="errorText">{errors.name}</div>
       )}
     </Error>
-    <Field name="email" />
+    <Field name="email" id="email" />
     <Error>
       {touched.email && errors.email && (
         <div className="errorText">{errors.email}</div>
       )}
     </Error>
-    <Field name="context" />
-    <button type="submit"></button>
+    <Field name="context" id="context" />
+    <button type="submit" id="submit"></button>
     <button href="/inquiry/complete" type="submit" />
   </Form>
 );

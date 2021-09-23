@@ -38,7 +38,9 @@ const InnerForm = ({ props, errors, touched }) => (
         <div className="errorText">{errors.confirmPassword}</div>
       )}
     </Error>
-    <button type="submit"></button>
+    <button type="submit" id="submit">
+      {" "}
+    </button>
     <button href="/inquiry/complete" type="submit" />
   </Form>
 );
