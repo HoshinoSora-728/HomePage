@@ -15,5 +15,14 @@ jobs:
         run: npm install
       - name: Run test
         run: npm test
+
+    test:
       - name: Run testcafe
-        run: testcafe chrome testcafe/*
+        runs-on: windows-latest
+    steps:
+        - name: Check out the repository
+          uses: actions/checkout@v1
+        - name: Run tests
+          uses: DevExpress/testcafe-action@latest
+          with:
+              args: "chrome tests"
