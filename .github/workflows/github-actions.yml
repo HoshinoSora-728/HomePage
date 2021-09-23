@@ -20,6 +20,7 @@ jobs:
       - name: move directory
         run: cd testcafe
       - name: Run tests
-        uses: DevExpress/testcafe-action@latest testcafe/*
-        with:
-          args: "chrome tests"
+        run: testcafe chrome testcafe/*
+        # uses: DevExpress/testcafe-action@latest
+        # with:
+        #   args: "chrome tests"
