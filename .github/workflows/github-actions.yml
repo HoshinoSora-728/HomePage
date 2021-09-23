@@ -20,5 +20,5 @@ jobs:
       - name: Run tests
         uses: DevExpress/testcafe-action@latest
         with:
+          path: "my-app/testcafe"
           args: "chrome tests"
-　　　　　　path: "my-app/testcafe"
