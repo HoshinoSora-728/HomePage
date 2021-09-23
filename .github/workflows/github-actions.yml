@@ -18,7 +18,7 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v1
       - name: Run tests
+        run: cd my-app/testcafe
         uses: DevExpress/testcafe-action@latest
         with:
-          path: "my-app/testcafe"
           args: "chrome tests"
