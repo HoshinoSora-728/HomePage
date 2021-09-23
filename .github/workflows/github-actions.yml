@@ -17,8 +17,9 @@ jobs:
         run: npm test
       - name: Check out the repository
         uses: actions/checkout@v1
-      - name: Run tests
+      - name: move directory
         run: cd my-app/testcafe
+      - name: Run tests
         uses: DevExpress/testcafe-action@latest
         with:
           args: "chrome tests"
