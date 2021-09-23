@@ -20,7 +20,7 @@ jobs:
       - name: move directory
         run: npm install testcafe
       - name: Run tests
-        run: npx testcafe chrome testcafe/*
-        # uses: DevExpress/testcafe-action@latest
-        # with:
-        #   args: "chrome tests"
+        # run: testcafe chrome testcafe/*
+        uses: DevExpress/testcafe-action@latest
+        with:
+          args: "chrome testcafe/*"
