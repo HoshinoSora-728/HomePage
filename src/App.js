@@ -1,62 +1,24 @@
-import "./App.css";
+import React, { Component } from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Welcome from './components/Welcome';
+import Profile from './components/Profile';
+import Link from './components/Link';
 
-import Information from "./component/information";
-import Inquiry from "./component/inquiry";
-import Inquirycomplete from "./component/complete";
-import Home from "./component/home";
-import SignUp from "./component/signUp";
-
-import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { browserhistory } from "react-router";
-import history from "./component/history";
-
-const App = () => {
-  return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <header>Football Club</header>
-
+class App extends Component {
+  render() {
+    return (
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/inquiry">About</Link>
-            </li>
-            <li>
-              <Link to="/information">Users</Link>
-            </li>
-            <li>
-              <Link to="/signUp">会員登録</Link>
-            </li>
-          </ul>
-        </nav>
-
-        <Switch history={history}>
-          <Route path="/information" component={Information} />
-          <Route exact path="/inquiry" component={Inquiry} />
-          <Route path="/inquiry/complete" component={Inquirycomplete} />
-          <Route path="/signUp" component={SignUp} />
-          <Route path="/" component={Home} />
-        </Switch>
-        <footer>@Sora Hoshino All Rights Reserved.</footer>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <Switch>
+            <Route exact path='/' component={Welcome} />
+            <Route path='/welcome' component={Welcome} />
+            <Route path='/profile' component={Profile} />
+            <Route path='/links' component={Link} />
+          </Switch>
+        </BrowserRouter>
       </div>
-    </Router>
-  );
-};
-
-// const Home = () => {
-//   return <h2>Home</h2>;
-// }
-
-// const About = () => {
-//   return <h2>About</h2>;
-// }
-
-// const Users = () => {
-//   return <h2>Users</h2>;
-// }
+    )
+  }
+}
 
 export default App;
