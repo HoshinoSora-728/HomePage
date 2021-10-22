@@ -1,15 +1,15 @@
 {
-  "main.css": "/HomePage/static/css/main.037fbb2d.chunk.css",
-  "main.js": "/HomePage/static/js/main.d9e7a06b.chunk.js",
-  "main.js.map": "/HomePage/static/js/main.d9e7a06b.chunk.js.map",
-  "runtime~main.js": "/HomePage/static/js/runtime~main.3d03ce7a.js",
-  "runtime~main.js.map": "/HomePage/static/js/runtime~main.3d03ce7a.js.map",
-  "static/css/2.826b474d.chunk.css": "/HomePage/static/css/2.826b474d.chunk.css",
-  "static/js/2.459fcf4f.chunk.js": "/HomePage/static/js/2.459fcf4f.chunk.js",
-  "static/js/2.459fcf4f.chunk.js.map": "/HomePage/static/js/2.459fcf4f.chunk.js.map",
-  "index.html": "/HomePage/index.html",
-  "precache-manifest.d5696aabc45cc9541cc4dee036a2e9f8.js": "/HomePage/precache-manifest.d5696aabc45cc9541cc4dee036a2e9f8.js",
-  "service-worker.js": "/HomePage/service-worker.js",
-  "static/css/2.826b474d.chunk.css.map": "/HomePage/static/css/2.826b474d.chunk.css.map",
-  "static/css/main.037fbb2d.chunk.css.map": "/HomePage/static/css/main.037fbb2d.chunk.css.map"
+  "main.css": "/HomePage/my-app/static/css/main.037fbb2d.chunk.css",
+  "main.js": "/HomePage/my-app/static/js/main.ae6bef74.chunk.js",
+  "main.js.map": "/HomePage/my-app/static/js/main.ae6bef74.chunk.js.map",
+  "runtime~main.js": "/HomePage/my-app/static/js/runtime~main.fecc5670.js",
+  "runtime~main.js.map": "/HomePage/my-app/static/js/runtime~main.fecc5670.js.map",
+  "static/css/2.826b474d.chunk.css": "/HomePage/my-app/static/css/2.826b474d.chunk.css",
+  "static/js/2.459fcf4f.chunk.js": "/HomePage/my-app/static/js/2.459fcf4f.chunk.js",
+  "static/js/2.459fcf4f.chunk.js.map": "/HomePage/my-app/static/js/2.459fcf4f.chunk.js.map",
+  "index.html": "/HomePage/my-app/index.html",
+  "precache-manifest.abc3f0b5bb7e85acc4578e4fd00fd154.js": "/HomePage/my-app/precache-manifest.abc3f0b5bb7e85acc4578e4fd00fd154.js",
+  "service-worker.js": "/HomePage/my-app/service-worker.js",
+  "static/css/2.826b474d.chunk.css.map": "/HomePage/my-app/static/css/2.826b474d.chunk.css.map",
+  "static/css/main.037fbb2d.chunk.css.map": "/HomePage/my-app/static/css/main.037fbb2d.chunk.css.map"
 }
