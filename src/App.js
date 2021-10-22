@@ -13,7 +13,7 @@ import history from "./component/history";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <header>Football Club</header>
 
       <div>
