@@ -1,8 +1,6 @@
 import "./App.css";
 
 import Information from "./component/information";
-import Inquiry from "./component/inquiry";
-import Inquirycomplete from "./component/complete";
 import Home from "./component/home";
 import SignUp from "./component/signUp";
 import ToDo from "./component/addTodo/index";
@@ -10,7 +8,6 @@ import ToDo from "./component/addTodo/index";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
-// import combineReducers from "./core/slice/reducers/information/index";
 import rootReducer from "./reducer/index";
 import YoutubeList from "./component/youtube";
 import { Menu } from "./menu";
