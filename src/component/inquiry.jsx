@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { Form, useFormik } from "formik";
+// import { Form, useFormik } from "formik";
 import Login from "./Login";
 import { useHistory } from "react-router";
-import history from "./history";
+// import history from "./history";
 
 const Inquiry = (props) => {
   const history = useHistory();
 
-  const move = (e) => {
-    console.log(history.location);
-    props.history.push("/inquiry/complete"); // 画面遷移
-  };
+  // const move = (e) => {
+  //   console.log(history.location);
+  //   props.history.push("/inquiry/complete"); // 画面遷移
+  // };
 
   const [count, setCount] = useState(0);
   useEffect(() => {

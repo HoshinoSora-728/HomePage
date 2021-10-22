@@ -15,12 +15,12 @@ jobs:
         run: npm install
       - name: Run test
         run: npm test
-      - name: Check out the repository
-        uses: actions/checkout@v1
-      - name: move directory
-        run: npm start
-      - name: Run tests
-        # run: testcafe chrome testcafe/*
-        uses: DevExpress/testcafe-action@latest
-        with:
-          args: "chrome testcafe/*"
+      # - name: Check out the repository
+      #   uses: actions/checkout@v1
+      # - name: move directory
+      #   run: npm start
+      # - name: Run tests
+      #   # run: testcafe chrome testcafe/*
+      #   uses: DevExpress/testcafe-action@latest
+      #   with:
+      #     args: "chrome testcafe/*"
