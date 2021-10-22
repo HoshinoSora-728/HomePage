@@ -21,7 +21,7 @@ const store = createStore(rootReducer);
 const App = () => {
   return (
     <Provider store={store}>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Menu></Menu>
         <div>
           <nav>
