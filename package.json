@@ -33,7 +33,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "npm run build && gh-pages2 -d build",
     "test": "jest",
     "eject": "react-scripts eject"
   },
